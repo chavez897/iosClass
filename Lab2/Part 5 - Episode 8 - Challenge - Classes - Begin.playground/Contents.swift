@@ -51,7 +51,7 @@ class Student {
     }
 }
 
-var chris = Student(name: "Chris", grade: 49, pet: "Mango")
+let chris = Student(name: "Chris", grade: 49, pet: "Mango")
 print(chris.getPassStatus())
 chris.earnExtraCredit()
 print(chris.getPassStatus())
